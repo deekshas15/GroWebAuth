@@ -1,0 +1,62 @@
+.sign::before {
+    background: url(r3.jpg) no-repeat ;
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position:absolute; 
+    background-size: 70% 100%;
+    filter: blur(0px);
+    margin-left: 18%;
+  }
+
+/* form for sign in */
+  
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  margin-right: 74%;
+  padding-top: 25%;
+  text-align: center;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.bottom {
+  margin-bottom: 30px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.signup {
+  width: 30%;
+}
+
+/* schedule */
+
+.schedule {
+  background-color: aquamarine;
+  padding-left: 3.5%;
+}
+.btn-cal {
+  margin: 2px;
+  display: inline-block;
+  height: 80px;
+  width: 92px;
+  border: 5px solid black;
+  border-radius: 20%;
+}
+
